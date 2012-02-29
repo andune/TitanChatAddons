@@ -4,9 +4,8 @@ import org.bukkit.entity.Player;
 
 import com.herocraftonline.dev.heroes.Heroes;
 import com.titankingdoms.nodinchan.titanchat.TitanChat;
-import com.titankingdoms.nodinchan.titanchat.support.TCSupport;
 
-public class HeroesSupport extends TCSupport {
+public class HeroesSupport extends Support {
 	
 	protected Heroes heroes;
 	

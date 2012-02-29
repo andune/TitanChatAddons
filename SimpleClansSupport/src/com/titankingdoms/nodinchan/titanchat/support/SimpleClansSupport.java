@@ -6,7 +6,7 @@ import org.bukkit.entity.Player;
 
 import com.titankingdoms.nodinchan.titanchat.TitanChat;
 
-public class SimpleClansSupport extends TCSupport {
+public class SimpleClansSupport extends Support {
 	
 	protected SimpleClans simpleClans;
 	
@@ -16,7 +16,7 @@ public class SimpleClansSupport extends TCSupport {
 	
 	@Override
 	public void chatMade(String name, String message) {}
-
+	
 	@Override
 	public String chatMade(Player player, String message) {
 		String msg = message;

@@ -2,7 +2,6 @@ package com.titankingdoms.nodinchan.titanchat.support;
 
 import java.util.List;
 
-import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 
 import com.ensifera.animosity.craftirc.CraftIRC;
@@ -10,14 +9,14 @@ import com.ensifera.animosity.craftirc.EndPoint;
 import com.ensifera.animosity.craftirc.RelayedMessage;
 import com.titankingdoms.nodinchan.titanchat.TitanChat;
 
-public class CraftIRC3Support extends TCSupport implements EndPoint {
+public class CraftIRC3Support extends Support implements EndPoint {
 	
 	protected CraftIRC craftIRC;
 	
 	public CraftIRC3Support(TitanChat plugin) {
 		super(plugin, "CraftIRC3Support");
 	}
-
+	
 	@Override
 	public boolean adminMessageIn(RelayedMessage msg) {
 		return false;
@@ -26,19 +25,17 @@ public class CraftIRC3Support extends TCSupport implements EndPoint {
 	@Override
 	public void chatMade(String name, String message) {
 		if (craftIRC != null) {
-			Player player = Bukkit.getServer().getPlayer(name);
-			
 			RelayedMessage chat = craftIRC.newMsg(this, null, "");
 			chat.setField("message", recolourize(message));
-			chat.setField("sender", player.getDisplayName());
-			chat.setField("world", player.getWorld().getName());
+			chat.setField("sender", plugin.getPlayer(name).getDisplayName());
+			chat.setField("world", plugin.getPlayer(name).getWorld().getName());
 			chat.setField("readlSender", name);
-			chat.setField("prefix", plugin.getPlayerPrefix(player));
-			chat.setField("suffix", plugin.getPlayerSuffix(player));
+			chat.setField("prefix", plugin.getPlayerPrefix(plugin.getPlayer(name)));
+			chat.setField("suffix", plugin.getPlayerSuffix(plugin.getPlayer(name)));
 			chat.post();
 		}
 	}
-
+	
 	@Override
 	public String chatMade(Player player, String message) {
 		return message;

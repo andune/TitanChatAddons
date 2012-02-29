@@ -4,9 +4,8 @@ import org.bukkit.entity.Player;
 
 import com.massivecraft.factions.P;
 import com.titankingdoms.nodinchan.titanchat.TitanChat;
-import com.titankingdoms.nodinchan.titanchat.support.TCSupport;
 
-public class FactionsSupport extends TCSupport {
+public class FactionsSupport extends Support {
 	
 	protected P factions;
 	
@@ -16,7 +15,7 @@ public class FactionsSupport extends TCSupport {
 	
 	@Override
 	public void chatMade(String name, String message) {}
-
+	
 	@Override
 	public String chatMade(Player player, String message) {
 		String msg = message;

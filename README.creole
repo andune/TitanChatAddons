@@ -1,0 +1,109 @@
+== TitanChat Supports
+
+TitanChat Supports, the TitanChat addons for plugin supports
+
+-----------------------------------------------------------------------------------------------------------------------
+
+=== Features
+
+* Easy to write
+
+-----------------------------------------------------------------------------------------------------------------------
+
+=== Functions
+
+* Supporting other plugins
+
+-----------------------------------------------------------------------------------------------------------------------
+
+=== Supports
+
+=== CraftIRC2Support
+
+* Supports relaying with CraftIRC 2
+
+=== CraftIRC3Support
+
+* Supports relaying with CraftIRC 3
+
+==== FactionsSupport
+
+* Supports Faction Tag in chat
+* Use %faction in format to be replaced with your Faction Tag
+
+=== GlobalChannel
+
+* Globally broadcasts messages to all
+
+=== HeroesSupport
+
+* Supports HeroClass, ProfClass, Level and Health in chat
+* Use %heroclass in format to be replaced with your HeroClass
+* Use %profclass in format to be replaced with your ProfClass
+* Use %level in format to be replaced with your level
+* Use %health in format to be replaced with your health
+
+=== LocalChannel
+
+* Sends messages to players within range
+
+=== MonsterIRCSupport
+
+* Supports relaying with MonsterIRC
+
+=== SimpleClansSupport
+
+* Supports Clan Tag in chat
+* Use %clan in format to be replaced with your Clan Tag
+
+=== TitanChatFilter
+
+* Filter function of the original built in filter
+* Filter words and phrases listed in the config
+
+=== TitanChatWorld
+
+* Supports World Name
+* Use %world in format to be replaced with the world you're in
+* Uses Multiverse's World Name if Multiverse is present
+
+=== TownySupport
+
+* Supports Town Name, Nation Name and Title
+* Use %town in format to be replaced with your town
+* Use %nation in format to be replaced with your nation
+* Use %title in format to be replaced with your title
+
+-----------------------------------------------------------------------------------------------------------------------
+
+=== Dependecies
+
+* TitanChat
+* Whatever plugin that you are supporting
+
+-----------------------------------------------------------------------------------------------------------------------
+
+=== How to install
+
+* Place in supports folder in TitanChat folder
+* Done!
+
+-----------------------------------------------------------------------------------------------------------------------
+
+=== Changelog
+
+* 16.02.12 - Project started
+
+-----------------------------------------------------------------------------------------------------------------------
+
+=== Todo
+
+* Create more support addons
+
+-----------------------------------------------------------------------------------------------------------------------
+
+=== Credits
+
+* Author: NodinChan
+
+-----------------------------------------------------------------------------------------------------------------------

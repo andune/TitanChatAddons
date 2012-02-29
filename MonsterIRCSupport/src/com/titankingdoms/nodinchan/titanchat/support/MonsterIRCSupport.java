@@ -8,14 +8,14 @@ import org.monstercraft.irc.wrappers.IRCChannel;
 
 import com.titankingdoms.nodinchan.titanchat.TitanChat;
 
-public class MonsterIRCSupport extends TCSupport {
+public class MonsterIRCSupport extends Support {
 	
 	protected IRC monsterIRC;
 	
 	public MonsterIRCSupport(TitanChat plugin) {
 		super(plugin, "MonsterIRCSupport");
 	}
-
+	
 	@Override
 	public void chatMade(String name, String message) {
 		String msg = Variables.ircformat;
@@ -33,7 +33,7 @@ public class MonsterIRCSupport extends TCSupport {
 			}
 		}
 	}
-
+	
 	@Override
 	public String chatMade(Player player, String message) {
 		return message;
