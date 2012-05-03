@@ -27,7 +27,7 @@ TitanChat Supports, the TitanChat addons for plugin supports
 * Hooks into Factions
 * Adds 2 new variables
 ** //%ftitle// - **Factions Title**
-** //%faction// - Faction
+** //%faction// - **Faction**
 
 ==== Filter
 * Filters words and phrases
@@ -47,15 +47,15 @@ TitanChat Supports, the TitanChat addons for plugin supports
 ==== TownyHook
 * Hooks into Towny
 * Adds 8 new variables
-** //%ttitle// - Towny Title
-** //%tsurname// - Towny Surname
-** //%town// - Town Name
-
-** //%townformatted// - Formatted Town Name
-** //%towntag// - Town Tag
-** //%nation// - Nation Name
-** //%nationformatted// - Formatted Nation Name
-** //%nationtag// - Nation Tag
+** //%ttitle// - **Towny Title**
+** //%tsurname// - **Towny Surname**
+** //%town// - **Town Name
+**
+** //%townformatted// - **Formatted Town Name**
+** //%towntag// - **Town Tag**
+** //%nation// - **Nation Name**
+** //%nationformatted// - **Formatted Nation Name**
+** //%nationtag// - **Nation Tag**
 
 === Custom Channels
 * Installation: Place into /plugins/TitanChat/addons/channels/
