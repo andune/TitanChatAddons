@@ -29,9 +29,8 @@ TitanChat Supports, the TitanChat addons for plugin supports
 
 * Adds 2 new variables
 
-** //%ftitle// - **Factions Title**
-
-** //%faction// - **Faction**
+** //%ftitle// - Factions Title
+** //%faction// - Faction
 
 ==== Filter
 * Filters words and phrases
@@ -59,21 +58,20 @@ TitanChat Supports, the TitanChat addons for plugin supports
 
 * Adds 8 new variables
 
-** //%ttitle// - **Towny Title**
+** //%ttitle// - Towny Title
 
-** //%tsurname// - **Towny Surname**
+** //%tsurname// - Towny Surname
+** //%town// - Town Name
 
-** //%town// - **Town Name**
+** //%townformatted// - Formatted Town Name
 
-** //%townformatted// - **Formatted Town Name**
+** //%towntag// - Town Tag
 
-** //%towntag// - **Town Tag**
+** //%nation// - Nation Name
 
-** //%nation// - **Nation Name**
+** //%nationformatted// - Formatted Nation Name
 
-** //%nationformatted// - **Formatted Nation Name**
-
-** //%nationtag// - **Nation Tag**
+** //%nationtag// - Nation Tag
 
 === Custom Channels
 
