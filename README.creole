@@ -21,66 +21,48 @@ TitanChat Supports, the TitanChat addons for plugin supports
 
 ==== ChatLog
 * Logs Player chat
-
 * Creates chat.log in /plugins/TitanChat/
 
 ==== FactionsHook
 * Hooks into Factions
-
 * Adds 2 new variables
-
-** //%ftitle// - Factions Title
+** //%ftitle// - **Factions Title**
 ** //%faction// - Faction
 
 ==== Filter
 * Filters words and phrases
-
 * Entirely configurable
 
 ==== RangeChannels
 * Contains 3 range based channels
-
 ** Local
-
 ** World
-
 ** Global
-
 * Each can be configured
 
 ==== TimeStamp
 * Shows the current time
-
 * Configurable timestamp format
 
 ==== TownyHook
 * Hooks into Towny
-
 * Adds 8 new variables
-
 ** //%ttitle// - Towny Title
-
 ** //%tsurname// - Towny Surname
 ** //%town// - Town Name
 
 ** //%townformatted// - Formatted Town Name
-
 ** //%towntag// - Town Tag
-
 ** //%nation// - Nation Name
-
 ** //%nationformatted// - Formatted Nation Name
-
 ** //%nationtag// - Nation Tag
 
 === Custom Channels
-
 * Installation: Place into /plugins/TitanChat/addons/channels/
 
 
 
 === Commands
-
 * Installation: Place into /plugins/TitanChat/addons/commands/
 
 -----------------------------------------------------------------------------------------------------------------------
