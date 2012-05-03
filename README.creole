@@ -1,6 +1,6 @@
-== TitanChat Supports
+== TitanChat Addons
 
-TitanChat Supports, the TitanChat addons for plugin supports
+TitanChat Addons, the TitanChat addons for supporting plugins
 
 -----------------------------------------------------------------------------------------------------------------------
 
