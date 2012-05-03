@@ -49,8 +49,7 @@ TitanChat Supports, the TitanChat addons for plugin supports
 * Adds 8 new variables
 ** //%ttitle// - **Towny Title**
 ** //%tsurname// - **Towny Surname**
-** //%town// - **Town Name
-**
+** //%town// - **Towny Name**
 ** //%townformatted// - **Formatted Town Name**
 ** //%towntag// - **Town Tag**
 ** //%nation// - **Nation Name**
