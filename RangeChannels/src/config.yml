@@ -1,0 +1,19 @@
+LocalChannel:
+    enable: true
+    chat-display-colour: '&e'
+    tag: '[L]'
+    radius: 15
+    colour-code: true
+    format: '%tag %prefix%player%suffix&f: %message'
+WorldChannel:
+    enable: true
+    chat-display-colour: '&b'
+    tag: '[W]'
+    colour-codes: true
+    format: '%tag %prefix%player%suffix&f: %message'
+GlobalChannel:
+    enable: true
+    chat-display-colour: '&a'
+    tag: '[G]'
+    colour-codes: true
+    format: '%tag %prefix%player%suffix&f: %message'

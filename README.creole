@@ -16,89 +16,95 @@ TitanChat Supports, the TitanChat addons for plugin supports
 
 -----------------------------------------------------------------------------------------------------------------------
 
-=== Supports
+=== Addons
+* Installation: Place into /plugins/TitanChat/addons/
 
-=== CraftIRC2Support
+==== ChatLog
+* Logs Player chat
 
-* Supports relaying with CraftIRC 2
+* Creates chat.log in /plugins/TitanChat/
 
-=== CraftIRC3Support
+==== FactionsHook
+* Hooks into Factions
 
-* Supports relaying with CraftIRC 3
+* Adds 2 new variables
 
-==== FactionsSupport
+** //%ftitle// - **Factions Title**
 
-* Supports Faction Tag in chat
-* Use %faction in format to be replaced with your Faction Tag
+** //%faction// - **Faction**
 
-=== GlobalChannel
+==== Filter
+* Filters words and phrases
 
-* Globally broadcasts messages to all
+* Entirely configurable
 
-=== HeroesSupport
+==== RangeChannels
+* Contains 3 range based channels
 
-* Supports HeroClass, ProfClass, Level and Health in chat
-* Use %heroclass in format to be replaced with your HeroClass
-* Use %profclass in format to be replaced with your ProfClass
-* Use %level in format to be replaced with your level
-* Use %health in format to be replaced with your health
+** Local
 
-=== LocalChannel
+** World
 
-* Sends messages to players within range
+** Global
 
-=== MonsterIRCSupport
+* Each can be configured
 
-* Supports relaying with MonsterIRC
+==== TimeStamp
+* Shows the current time
 
-=== SimpleClansSupport
+* Configurable timestamp format
 
-* Supports Clan Tag in chat
-* Use %clan in format to be replaced with your Clan Tag
+==== TownyHook
+* Hooks into Towny
 
-=== TitanChatFilter
+* Adds 8 new variables
 
-* Filter function of the original built in filter
-* Filter words and phrases listed in the config
+** //%ttitle// - **Towny Title**
 
-=== TitanChatWorld
+** //%tsurname// - **Towny Surname**
 
-* Supports World Name
-* Use %world in format to be replaced with the world you're in
-* Uses Multiverse's World Name if Multiverse is present
+** //%town// - **Town Name**
 
-=== TownySupport
+** //%townformatted// - **Formatted Town Name**
 
-* Supports Town Name, Nation Name and Title
-* Use %town in format to be replaced with your town
-* Use %nation in format to be replaced with your nation
-* Use %title in format to be replaced with your title
+** //%towntag// - **Town Tag**
+
+** //%nation// - **Nation Name**
+
+** //%nationformatted// - **Formatted Nation Name**
+
+** //%nationtag// - **Nation Tag**
+
+=== Custom Channels
+
+* Installation: Place into /plugins/TitanChat/addons/channels/
+
+
+
+=== Commands
+
+* Installation: Place into /plugins/TitanChat/addons/commands/
 
 -----------------------------------------------------------------------------------------------------------------------
 
 === Dependecies
 
 * TitanChat
+* NC-LoaderLib
 * Whatever plugin that you are supporting
-
------------------------------------------------------------------------------------------------------------------------
-
-=== How to install
-
-* Place in supports folder in TitanChat folder
-* Done!
 
 -----------------------------------------------------------------------------------------------------------------------
 
 === Changelog
 
 * 16.02.12 - Project started
+* 03.05.12 - Repository updated
 
 -----------------------------------------------------------------------------------------------------------------------
 
 === Todo
 
-* Create more support addons
+* Create more addons
 
 -----------------------------------------------------------------------------------------------------------------------
 
