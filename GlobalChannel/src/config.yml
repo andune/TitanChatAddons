@@ -1,0 +1,4 @@
+chat-display-colour: '&a'
+tag: '[G]'
+colour-codes: true
+format: '%tag %prefix%player%suffix&f: %message'

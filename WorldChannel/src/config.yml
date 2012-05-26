@@ -1,0 +1,4 @@
+chat-display-colour: '&b'
+tag: '[W]'
+colour-codes: true
+format: '%tag %prefix%player%suffix&f: %message'

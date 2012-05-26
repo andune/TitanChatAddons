@@ -1,0 +1,5 @@
+chat-display-colour: '&e'
+tag: '[L]'
+radius: 15
+colour-code: true
+format: '%tag %prefix%player%suffix&f: %message'

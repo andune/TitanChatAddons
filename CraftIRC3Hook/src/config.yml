@@ -1,0 +1,10 @@
+# Follow the following example to configure
+# map:
+#     craftirc-tag1: channel-name1
+#     craftirc-tag2: channel-name2
+map:
+    default: Default
+    public: Public
+    private: Private
+    password: Password
+    staff: Staff
